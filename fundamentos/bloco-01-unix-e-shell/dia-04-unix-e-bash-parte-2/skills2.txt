@@ -1,0 +1,8 @@
+Internet
+Unix
+Bash
+SQL
+Javascript
+Phyton
+SoftSkills
+Git
