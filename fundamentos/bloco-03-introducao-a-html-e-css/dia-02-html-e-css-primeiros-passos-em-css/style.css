@@ -1,0 +1,37 @@
+h1 {
+    font-size: 65px;
+    color: orange;
+    font-family: sans-serif;
+
+}
+
+ul {
+    background-color: blue;
+}
+
+.Request1 {
+    background-color: antiquewhite;
+}
+
+p {
+    font-weight: 600;
+    font-size: 3em;
+    text-decoration: underline;
+    text-decoration-color: cornflowerblue;
+}
+
+body {
+    font-size: 16px;
+}
+
+#Amarelo {
+    background-color: yellow;
+}
+
+#Vermelho {
+    background-color: red;
+}
+
+#Marrom {
+    background-color: brown;
+}
