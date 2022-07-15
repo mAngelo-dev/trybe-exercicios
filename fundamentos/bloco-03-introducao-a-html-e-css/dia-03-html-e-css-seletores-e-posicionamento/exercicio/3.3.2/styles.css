@@ -1,19 +1,37 @@
 .super-mario {
     width: 200px;
-  }
-  
-  .goomba {
+    position: absolute;
+    z-index: 2;
+    /* border: 3px solid green  - Utilizado pra saber a dimensão do Mario*/
+}
+
+.goomba {
     width: 100px;
-  }
-  
-  .baloon {
-  
-  }
-  
-  .speach {
+    position: absolute; 
+    top: 400px;
+    left: 10px
+    z-index: 1;
+    /* border: 3px solid red; - Utilizado pra saber a dimensão do bichinho */
+}
+
+.baloon {
+    position: absolute;
+    left: 220px;
+
+
+}
+
+.speach {
     font-size: 25px;
-  }
-  
-  .bowser {
-    width: 200px;
-  }
+    position: absolute;
+    left: 237px;
+    z-index: 3;
+    top: 110px
+}
+
+.bowser {
+    width: 350px;
+    position: absolute;
+    left: 500px;
+    top: 150px;
+}
