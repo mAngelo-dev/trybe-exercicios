@@ -7,9 +7,9 @@
 
 .goomba {
     width: 100px;
-    position: absolute; 
+    position: absolute;
     top: 400px;
-    left: 10px
+    left: 10px;
     z-index: 1;
     /* border: 3px solid red; - Utilizado pra saber a dimensão do bichinho */
 }
