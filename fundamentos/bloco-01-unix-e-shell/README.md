@@ -1,5 +1,5 @@
-# BLOCO 3 - HTML E CSS
+# BLOCO 1 - Unix e Shell
 
-Esse bloco pertence ao módulo de `fundamentos` do curso da [Trybe](https://www.betrybe.com/). Nesse bloco aprendi sobre as principais tags do HTML para criar a estrutura de páginas web, aprendi a como usar o CSS para estilizar essas tags, usando diferentes formas de selecionar os elementos HTML, e então vi sobre como alterar o posicionamento dos elementos na página e como algumas propriedades específicas alteram as dimensões dos elementos, por último vi sobre o significado que cada elemento HTML carrega e sobre como isso impacta a interpretação do conteúdo da página por robôs e outros elementos da Internet.
+Esse bloco pertence ao módulo de `fundamentos` do curso da [Trybe](https://www.betrybe.com/). Nesse bloco aprendi sobre as principais funções dos consoles em sistemas baseados em UNIX e como utilizar os comandos do shell e suas ramificações.
 
-Tendo isso em mente aqui você encontrará os exercícios que desenvolvi para fixar os conhecimentos que adquiri ao longo desse bloco. Além disso também desenvolvi o projeto ao final de bloco para avaliar tudo o que havia aprendido, você pode acessa-lo [aqui](linkProjetoDoBloco).
+Mexi bastante em coisas como: criar diretórios, remover arquivos, buscas por palavras chaves e até edição de texto pela propria linha de comando para me familiarizar com a ferramenta.
