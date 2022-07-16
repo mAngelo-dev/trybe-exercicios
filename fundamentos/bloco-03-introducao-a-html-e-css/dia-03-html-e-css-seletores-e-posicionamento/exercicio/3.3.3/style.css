@@ -11,3 +11,7 @@ a:active {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 120px;
 }
+
+ul, ol {
+    list-style: none;
+}
