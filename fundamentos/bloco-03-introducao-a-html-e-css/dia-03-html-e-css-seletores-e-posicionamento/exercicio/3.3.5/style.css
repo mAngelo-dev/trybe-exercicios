@@ -1,0 +1,65 @@
+ol {
+    background-color: yellow;
+}
+
+ol #impar {
+    text-transform: uppercase;
+}
+
+ol #par {
+    color: green
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: red
+}
+
+h1 em {
+    font-size: 40px;
+    border: 1px solid black;
+}
+
+li {
+    font-size: 20px;
+}
+
+li em {
+    font-weight: bold;
+}
+
+ul li:first-child {
+    color: blue;
+}
+
+ul li#Java {
+    background-color: pink;
+    color: blue;
+}
+
+/* StackOverflow (laranja), W3Schools (verde), MDN (preta), DevDocs (amarela), Trybe (verde). - passar o mouse sobre cada um, o texto fique em negrito  */
+
+#Stackoverflow:hover {
+    background-color: orange;
+    font-weight: bold;
+}
+#W3Schools:hover {
+    background-color: green;
+    font-weight: bold;
+}
+#MDNWebDocs:hover {
+    background-color: black;
+    font-weight: bold;
+}
+#DevDocs:hover {
+    background-color: yellow;
+    font-weight: bold;
+}
+#Trybe:hover{ 
+    background-color: green;
+    font-weight: bold;
+}
