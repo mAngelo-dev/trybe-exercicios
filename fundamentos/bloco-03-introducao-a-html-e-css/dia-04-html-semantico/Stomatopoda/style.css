@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Assistant', sans-serif;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #328db0;
+}
+
+#Title {
+    margin: 0;
+    font-size: 40px;
+    text-align: center;
+    color: #d9c282;
+    border-bottom: 2px solid #d9c282;
+}
+
+.main-header {
+    background-color: #1a495b;
+    background-size: cover;
+    /* background-color: aquamarine;
+    background-blend-mode: multiply; */
+    padding-bottom: 10PX;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+nav ul {
+    margin: 0;
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: .5em;
+    color: beige;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+nav ul li a:hover {
+    background-color: #1b4353;
+}
+
+.Artigo {
+    background-color: #ab9a6b;
+    border-radius: 5px;
+    text-align: center;
+    border: 2px solid beige;
+    margin-top: 20px;
+}
+.Artigo p {
+    padding: 30px;
+}
+
+#who {
+    font-size: 35px
+}
