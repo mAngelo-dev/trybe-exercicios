@@ -9,4 +9,4 @@ const custoTotal = custo + imposto
 const lucro =  venda - custoTotal
 
 console.log(lucro*1000)
-// console.log(custoTotal)
+// [X]console.log(custoTotal)
