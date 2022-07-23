@@ -10,11 +10,8 @@ for (let index = 0; index < numeros.length; index++) {
   }
 }
 if (impares.length > 1) {
-    // console.log(impares);
-    console.log(impares.length); 
-}
-
-
-else if (impares.length < 1) {
+  // console.log(impares);
+  console.log(impares.length);
+} else if (impares.length < 1) {
   console.log("nenhum valor ímpar encontrado");
 }
