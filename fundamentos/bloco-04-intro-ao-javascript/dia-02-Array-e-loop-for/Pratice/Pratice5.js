@@ -6,4 +6,4 @@ for (let index = 0; index < numbers.length; index++) {
         maiorNumero = numbers[index]
     }
 }
-console.log(maiorNumero)
+console.log(numbers[index])
