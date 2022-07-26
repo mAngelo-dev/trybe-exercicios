@@ -6,26 +6,26 @@
 //? verificaFimPalavra('joaofernando', 'fernan');
 //? Retorno esperado: false
 
-function verifyEnding(input,ending) {
-    input[input.length - 2]
-    let entrada = input[input.length - 2]     
-    let entrada2 = input[input.length -1]
-    let final = entrada + entrada2
-    
+// function verifyEnding(input, ending) {
+//   let entrada = input[input.length - 2];
+//   let entrada2 = input[input.length - 1];
+//   let final = entrada + entrada2;
 
-    if (final === ending ){
-        return true
-    }
-    return false
-}
-
-console.log(verifyEnding('trybe','be'))
-
-
-//? Shortcut 
-
-// function verificaFimPalavra(palavra, final){
-//     return palavra[palavra.length -2] + palavra[palavra.length - 1] === final
+//   if (final === ending) {
+//     return true;
+//   }
+//   return false;
 // }
 
-// console.log(verificaFimPalavra('trybe','be'))
+// console.log(verifyEnding("fernando", "nando"));
+
+//? Shortcut
+
+function verificaFimPalavra(palavra, final){
+    return palavra[palavra.length -2] + palavra[palavra.length - 1] === final
+}
+
+console.log(verificaFimPalavra('fernando','nando'))
+
+
+//! refazer!!!

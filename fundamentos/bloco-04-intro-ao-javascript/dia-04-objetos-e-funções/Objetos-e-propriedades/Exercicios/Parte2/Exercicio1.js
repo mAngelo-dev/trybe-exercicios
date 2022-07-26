@@ -15,4 +15,11 @@ function verifyPalindrome(str) {
     return true
 }
 
-console.log(verifyPalindrome('carrac'))
+console.log(verifyPalindrome('arara'))
+
+// function verifyPalindrome(str) {
+//   let reverseWord = str.split('').reverse().join('')
+//   return str === reverseWord
+
+// }
+// console.log(verifyPalindrome('carro'))
