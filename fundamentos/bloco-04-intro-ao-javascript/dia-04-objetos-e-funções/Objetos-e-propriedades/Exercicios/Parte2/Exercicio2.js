@@ -4,10 +4,10 @@ let maiorNumero = 0;
 function verifyBiggestNumber(n) {
     for (let index = 0; index < numbers.length; index++) {
         if (numbers[index] > maiorNumero) {
-            maiorNumero = numbers[index]
+            maiorNumero = index
         }
     }
-    return maiorNumero   
+    return maiorNumero  
 }
 
 console.log(verifyBiggestNumber(numbers))
