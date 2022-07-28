@@ -48,35 +48,57 @@
   - document.getElementsByClassName()
   - document.getElementsByTagName()
  Crie e execute uma função que mude o texto na tag `<p>-----</p>`, para uma descrição de como você se vê daqui a 2 anos. (Não gaste tempo pensando no texto e sim realizando o exercício) */
-let meuTexto = document.getElementsByTagName('p');
-for (m = 0; m < meuTexto.length; m += 1){
-  if (meuTexto[m] == meuTexto[1] ){
-    meuTexto[m].innerText = 'Me vejo sendo dev'
-  };
-};
- // Crie e execute uma função que mude a cor do quadrado amarelo para o verde da Trybe (rgb(76,164,109)).
-  let background = document.getElementsByClassName('main-content')
-  for (j = 0; j < background.length; j += 1){
-    background[j] = background[j].style.backgroundColor = 'rgb(76,164,109)'
-  };
-// Crie e execute uma função que mude a cor do quadrado vermelho para branco.
-  let redSquare = document.getElementsByClassName('center-content');
-  for (r = 0; r < redSquare.length; r += 1){
-    redSquare[r] = redSquare[r].style.backgroundColor = 'white'
-  };
-// Crie e execute uma função que corrija o texto da tag <h1>.
-  let correction = document.getElementsByTagName("h1");
-  for (c = 0; c < correction.length; c += 1){
-    correction[c] = correction[c].innerText = 'Exercício 5.1 - Javascript'
-  };
-// Crie e execute uma função que modifique todo o texto da tag <p> para maiúsculo.
-
-
-// Crie e execute uma função que exiba o conteúdo de todas as tags <p> no console.
-  let showLog = document.getElementsByTagName("p");
-  for (l = 0; l < showLog.length; l += 1){
-    console.log(showLog[l])
+function addText() {
+  let meuTexto = document.getElementsByTagName('p');
+  for (m = 0; m < meuTexto.length; m += 1) {
+    if (meuTexto[m] == meuTexto[1]) {
+      meuTexto[m].innerText = 'Me vejo sendo dev'
+    }
   }
+}
+addText()
+ // Crie e execute uma função que mude a cor do quadrado amarelo para o verde da Trybe (rgb(76,164,109)).
+  function changeBackground() {
+    let background = document.getElementsByClassName('main-content')
+    for (j = 0; j < background.length; j += 1) {
+      background[j] = background[j].style.backgroundColor = 'rgb(76,164,109)'
+    }
+  }
+  changeBackground()
+// Crie e execute uma função que mude a cor do quadrado vermelho para branco.
+  function noMoreRedSquare() {
+    let redSquare = document.getElementsByClassName('center-content');
+    for (r = 0; r < redSquare.length; r += 1) {
+      redSquare[r] = redSquare[r].style.backgroundColor = 'white'
+    }
+  }
+    noMoreRedSquare()
+
+// Crie e execute uma função que corrija o texto da tag <h1>.
+    function correctTitle() {
+      let correction = document.getElementsByTagName("h1");
+      for (c = 0; c < correction.length; c += 1) {
+        correction[c] = correction[c].innerText = 'Exercício 5.1 - Javascript'
+      }
+    }
+correctTitle()
+
+// Crie e execute uma função que modifique todo o texto da tag <p> para maiúsculo.
+function getUppercase() {
+  let upCase = document.getElementsByTagName('p');
+  for (u = 0; u < upCase.length; u += 1) {
+    upCase[u].innerHTML = upCase[u].innerHTML.toUpperCase('');
+  }
+}
+getUppercase();
+// Crie e execute uma função que exiba o conteúdo de todas as tags <p> no console.
+  function consolelogger() {
+    let showLog = document.getElementsByTagName("p");
+    for (l = 0; l < showLog.length; l += 1) {
+      console.log(showLog[l])
+    }
+  }
+  consolelogger()
 </script>
 </body>
 </html>
