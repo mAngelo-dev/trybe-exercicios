@@ -1,4 +1,4 @@
-// arquivo script.js
+// arquivo main.js
 
 console.log(document.getElementById('start').nextSibling) // nó
 
