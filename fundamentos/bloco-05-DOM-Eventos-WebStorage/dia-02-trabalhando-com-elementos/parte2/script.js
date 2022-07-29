@@ -46,5 +46,5 @@ let filhoDoPrimeiroFilho = 'Filho do Primeiro Filho'
 let criaFilho = document.createElement('p')
 document.getElementById('primeiroFilhoDoFilho').appendChild(criaFilho).append(filhoDoPrimeiroFilho)
 
-// A partir desse filho criado, acesse terceiroFilho
+// A partir desse filho criado, acesse terceiroFilho.
 console.log(document.getElementById('primeiroFilhoDoFilho').firstChild.parentNode.parentNode.parentNode.lastElementChild.previousElementSibling)
